@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import "_textstyles";
+@import "_social";
 
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
@@ -11287,9 +11288,11 @@ textarea.form-control-lg {
 .hoverzoom:hover img {
   transition: 1s;
   transform:scale(1.2);
-  }
+}
 
-  .hoverzoom2:hover img {
-    transition: 1s;
-    transform:scale(1.1);
-    }
+.hoverzoom2:hover img {
+  transition: 1s;
+  transform:scale(1.1);
+}
+
+  
